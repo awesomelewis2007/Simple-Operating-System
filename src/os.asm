@@ -74,8 +74,6 @@ main:
 	mov es,ax
 	mov ss,ax
 	sti
-
 	call Boot
-
 	times 510 - ($-$$) db 0
 	dw 0xAA55

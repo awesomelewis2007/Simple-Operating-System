@@ -1,4 +1,4 @@
-all: compile
+all: compile run
 compile:
 	echo "Compiling OS this may take time..."
 	mkdir bin
